@@ -22,7 +22,7 @@ var checkRateLimit = require('./lib/rate-limit')(process.env.CORSANYWHERE_RATELI
 var cors_proxy = require('./lib/cors-anywhere');
 cors_proxy.createServer({
   originBlacklist: originBlacklist,
-  originWhitelist: ['https://dslusser.com,http://127.0.0.1:5500'],
+  originWhitelist: ['https://dslusser.com,https://niagarawater--tst1.custhelp.com'],
   requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
   removeHeaders: [
