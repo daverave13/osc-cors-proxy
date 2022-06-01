@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ea51059b-b5f5-4a86-ae78-6fbf365d1c89/microsoft.web/sites/subscriptions/ea51059b-b5f5-4a86-ae78-6fbf365d1c89/resourceGroups/rg-dev-yms/providers/Microsoft.Web/sites/OSC-CORS-Proxy",
+    "appService.deploySubpath": "."
+}
