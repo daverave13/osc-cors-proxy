@@ -24,7 +24,7 @@ var checkRateLimit = require('./lib/rate-limit')(process.env.CORSANYWHERE_RATELI
 var cors_proxy = require('./lib/cors-anywhere');
 cors_proxy.createServer({
   originBlacklist: [],
-  originWhitelist: ['https://niagarawater--tst1.custhelp.com','http://127.0.0.1:5500','http://localhost:5500','https://localhost:3000','https://localhost:5500','*'],
+  originWhitelist: ['https://niagarawater--tst1.custhelp.com','http://127.0.0.1:5500','http://localhost:5500','http://localhost:3000','https://localhost:5500','*'],
   requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
   removeHeaders: [
